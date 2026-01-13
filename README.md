@@ -60,6 +60,8 @@ bash tools/dist_train.sh ratopo_subset_b 8      # subset_B
 ```
 
 ### Evaluate RATopo with 8 GPUs.
+The pretrained checkpoints are available at [subset_A](https://drive.google.com/file/d/1kc7p_cvAj-qT7fbtc1xeh8gq4PfUGyiK/view?usp=sharing) and [subset_B](https://drive.google.com/file/d/1J5cjptgvbSKDQ42Uo1V7ACQ_lIdOmirO/view?usp=sharing).
+
 ```shell
 bash tools/dist_test.sh ratopo_subset_a 8       # subset_A
 bash tools/dist_test.sh ratopo_subset_b 8       # subset_B 
