@@ -90,3 +90,5 @@ We thank the authors that open the following projects.
 - [TopoNet](https://github.com/OpenDriveLab/TopoNet)
 - [TopoMLP](https://github.com/wudongming97/TopoMLP)
 - [TopoLogic](https://github.com/Franpin/TopoLogic)
+- [Group DETR](https://github.com/Atten4Vis/GroupDETR)
+- [MS-DETR](https://github.com/Atten4Vis/MS-DETR)
