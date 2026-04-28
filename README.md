@@ -45,18 +45,18 @@
 
 </div>
 
-## 📢 News
+## News
 
-* **[2026/01/13]** 🚀 The code and models are released.
-* **[2025/08/21]** 🔥 The paper is released on arXiv.
+* **[2026/01/13]** The code and models are released.
+* **[2025/08/21]** The paper is released on arXiv.
 
-## 💡 Highlights
+## Highlights
 
 * **Limitation of existing lane topology reasoning methods**. We identify the critical limitation of sparse valid topology supervision in existing lane topology reasoning methods, which stems from the inherent conflict between one-to-one label assignment in DETR-style lane detectors and the geometric ambiguity of lane structure representations.
 * **Model-agnostic redundancy assignment strategy**. We propose RATopo, a model-agnostic redundancy assignment strategy that breaks the one-to-one assignment bottleneck by restructuring the Transformer decoder and introducing parallel cross-attention, enabling dense and geometrically diverse valid topology supervision.
 * **Consistent improvements on various topology reasoning methods**. Extensive experiment results on OpenLane-V2 show that our RATopo obtains consistent improvements on various topology reasoning methods, demonstrating its effectiveness and generality.
 
-## 🛠️ Usage
+## Usage
 
 ### Installation
 
@@ -111,7 +111,7 @@ bash tools/dist_test.sh ratopo_subset_b 8       # subset_B
 
 ![results](figs/results.png)
 
-## 📝 Citation
+## Citation
 If you find this repo useful for your research, please consider citing it using the following BibTeX entry.
 
 ```
@@ -124,11 +124,11 @@ If you find this repo useful for your research, please consider citing it using 
 }
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the Apache-2.0 License. See [LICENSE](./LICENSE) for more information.
 
-## 🙏 Acknowledgement
+## Acknowledgement
 
 We thank the authors that open the following projects.
 - [OpenLane-v2](https://github.com/OpenDriveLab/OpenLane-V2)
